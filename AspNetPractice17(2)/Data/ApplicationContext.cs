@@ -11,5 +11,7 @@ namespace AspNetPractice17_2_.Data
         {
             Database.EnsureCreated();
         }
+
+        public DbSet<Recipe> Recipes { get; set; }
     }
 }
